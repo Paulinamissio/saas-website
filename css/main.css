@@ -25,6 +25,11 @@ html {
   width: 100%;
 }
 
+header {
+  background-image: url(../images/banner-photo.png);
+  padding-bottom: 6em;
+}
+
 .banner {
   color: white;
   overflow: hidden;
@@ -32,9 +37,9 @@ html {
   max-height: 27em;
 }
 .banner-content {
-  position: absolute;
+/*  position: absolute;
   left: 18em;
-  bottom: 6em;
+  bottom: 6em; */
 }
 
 p {
@@ -59,18 +64,22 @@ h1 {
 
 .nav {
   text-align: center;
+  left: -12rem;
+  bottom: 0;
 }
 
 li {
+  display: block;
+  color: white;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 .nav a {
   text-decoration: none;
   color: red;
   margin: 0;
-  border-radius: 3px;
+  border-radius: 2em;
 }
 
 .nav a:hover {
@@ -85,7 +94,7 @@ ul {
 .logo {
   overflow: hidden;
   position: relative;
-  width: 9%;
+  width: 4%;
 }
 .logo-content {
   position: absolute;
@@ -108,4 +117,37 @@ ul {
 
 .explorefonts {
   display: block;
+}
+
+.btn {
+  background-color: red;
+  border-color: red;
+  color: white;
+  border-radius: 2rem;
+  padding: .5em;
+}
+
+.btn a:hover {
+  background-color: red;
+  color: white;
+  display: inline-block;
+}
+
+.Content {
+  background-color: #2A2C34;
+  text-align: center;
+}
+
+.explorefonts {
+  display: block;
+}
+
+.Pricing {
+  background-color: #2A2C34;
+  padding-top: 2em;
+  padding-left: 13em;
+  padding-right: 13em;
+  padding-bottom: 2em;
+  color: white;
+  text-align: center;
 }
