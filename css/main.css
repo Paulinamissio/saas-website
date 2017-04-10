@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Bevan", cursive;
+  font-family: 'Bevan', cursive;
   background-color: #f4f4f4;
 }
 
@@ -36,25 +36,14 @@ header {
   position: relative;
   max-height: 27em;
 }
-.banner-content {
-/*  position: absolute;
-  left: 18em;
-  bottom: 6em; */
-}
 
 p {
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
 
-
 body {
   margin: 0;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 h1 {
@@ -69,7 +58,6 @@ h1 {
 }
 
 li {
-  display: block;
   color: white;
   display: inline-block;
   text-align: center;
@@ -91,11 +79,13 @@ li {
 ul {
   top: 7em;
 }
+
 .logo {
   overflow: hidden;
   position: relative;
   width: 4%;
 }
+
 .logo-content {
   position: absolute;
   left: 17rem;
@@ -115,10 +105,6 @@ ul {
   bottom: 0;
 }
 
-.explorefonts {
-  display: block;
-}
-
 .btn {
   background-color: red;
   border-color: red;
@@ -134,7 +120,7 @@ ul {
 }
 
 .Content {
-  background-color: #2A2C34;
+  background-color: #2a2c34;
   text-align: center;
 }
 
@@ -143,11 +129,7 @@ ul {
 }
 
 .Pricing {
-  background-color: #2A2C34;
-  padding-top: 2em;
-  padding-left: 13em;
-  padding-right: 13em;
-  padding-bottom: 2em;
+  background-color: #2a2c34;
   color: white;
   text-align: center;
 }
