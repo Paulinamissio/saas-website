@@ -12,7 +12,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Bevan', cursive;
+  font-family: "Bevan", cursive;
   background-color: #f4f4f4;
 }
 
@@ -93,43 +93,34 @@ ul {
 }
 
 .topfont {
-  color: white;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+  background-color: #FFFFFF;
 }
 
-.bannert {
-  position: absolute;
-  left: 24em;
-  bottom: 0;
+.img-f {
+  width: 25%;
+  float:left;
 }
 
-.btn {
-  background-color: red;
-  border-color: red;
-  color: white;
-  border-radius: 2rem;
-  padding: .5em;
-}
-
-.btn a:hover {
+  .btn {
   background-color: red;
   color: white;
-  display: inline-block;
-}
+  }
 
-.Content {
-  background-color: #2a2c34;
-  text-align: center;
-}
-
-.explorefonts {
-  display: block;
-}
+  .btn a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+  }
 
 .Pricing {
-  background-color: #2a2c34;
-  color: white;
+  background-color: #F7F7F7;
+  color: black;
   text-align: center;
+}
+
+.table {
+  display: block;
+  background-color: lightgrey;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
