@@ -12,7 +12,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Bevan";
   background-color: #f4f4f4;
 }
 
@@ -37,7 +36,7 @@ header {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   color: black;
 }
 
@@ -50,12 +49,12 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   color: white;
 }
 
 h2 {
-  font-family: "Bevan";
+  font-family: serif;
   color: #ff004e;
 }
 
@@ -95,15 +94,15 @@ h2 {
 
 h4 {
   border-bottom: 1px solid #000;
-  font-family: "Bevan", sans-serif;
+  font-family: sans-serif;
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 .push {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 .col-head {
