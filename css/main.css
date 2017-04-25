@@ -46,7 +46,7 @@ body {
   margin: 0;
 }
 
-.Topfont {
+.topfont {
   background-color: white;
 }
 
@@ -76,7 +76,7 @@ h2 {
 .logo {
   overflow: hidden;
   position: relative;
-  width: 4%;
+  width: 5%;
 }
 
 .logo-content {
